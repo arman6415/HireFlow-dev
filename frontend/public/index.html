@@ -1,0 +1,19 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React App</title>
+
+    <!-- Include Google Maps JavaScript API -->
+    <script
+      src={`https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}&libraries=places`}
+      async
+      defer
+    ></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
