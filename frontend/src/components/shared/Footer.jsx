@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-8 md:mb-0 text-center md:text-left">
             <h2 className="text-3xl font-extrabold">
-              U<span className="text-gray-400">Company</span>
+              Hire<span className="text-gray-400">flow</span>
             </h2>
-            <p className="text-sm mt-2 text-gray-400">© 2024 Your Company. All rights reserved.</p>
+            <p className="text-sm mt-2 text-gray-400">© 2025 Your Company. All rights reserved.</p>
           </div>
           
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
