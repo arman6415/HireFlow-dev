@@ -1,42 +1,60 @@
-# Backend
-backend/node_modules/
-backend/.env           # Environment variables
-backend/dist/
-backend/logs/
-backend/*.log
-backend/.cache/
-backend/npm-debug.log*
-backend/yarn-debug.log*
-backend/yarn-error.log*
-backend/pnpm-debug.log*
+# =========================
+# Dependencies
+# =========================
+node_modules/
 
-# Frontend
-frontend/node_modules/
-frontend/dist/
-frontend/.env
-frontend/.env.local
-frontend/.env.*.local
-frontend/.vite/
-frontend/.cache/
-frontend/*.log
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
-frontend/pnpm-debug.log*
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
 
-# Both / root-level
-**/npm-debug.log*
-**/yarn-debug.log*
-**/yarn-error.log*
-**/pnpm-debug.log*
+# =========================
+# Build / Output
+# =========================
+dist/
+build/
+.out/
+.next/
+.vite/
 
-# System
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Cache
+# =========================
+.cache/
+.turbo/
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# Deployment
+# =========================
+.vercel/
+.netlify/
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# =========================
+# OS junk
+# =========================
 .DS_Store
 Thumbs.db
-
-# Deployment
-.vercel/
-
-# Editor
-.vscode/
-.idea/
